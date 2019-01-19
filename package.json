@@ -1,0 +1,22 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "Saas and CSS advance practice",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheresronald0/CSS-Practice.git"
+  },
+  "author": "Ron Mason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wheresronald0/CSS-Practice/issues"
+  },
+  "homepage": "https://github.com/wheresronald0/CSS-Practice#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
